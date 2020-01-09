@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_01_Hello_World", "01_01_Hello_World\01_01_Hello_World.csproj", "{9BF9D38E-A21E-4794-976E-E9C5700DAC98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_01_Hello_World", "01_01_Hello_World\01_01_Hello_World.csproj", "{9BF9D38E-A21E-4794-976E-E9C5700DAC98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Errors", "02_Errors\02_Errors.csproj", "{D8560F07-134B-4C20-A333-A8172CA3566D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyXUnitTests", "MyXUnitTests\MyXUnitTests.csproj", "{41A192BD-357C-4CC5-BA7C-9DECE93167AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9BF9D38E-A21E-4794-976E-E9C5700DAC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF9D38E-A21E-4794-976E-E9C5700DAC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF9D38E-A21E-4794-976E-E9C5700DAC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8560F07-134B-4C20-A333-A8172CA3566D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8560F07-134B-4C20-A333-A8172CA3566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8560F07-134B-4C20-A333-A8172CA3566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8560F07-134B-4C20-A333-A8172CA3566D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A192BD-357C-4CC5-BA7C-9DECE93167AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A192BD-357C-4CC5-BA7C-9DECE93167AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A192BD-357C-4CC5-BA7C-9DECE93167AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A192BD-357C-4CC5-BA7C-9DECE93167AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

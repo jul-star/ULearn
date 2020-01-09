@@ -12,7 +12,7 @@ namespace _01_01_Hello_World
 
         static void Mixed()
         {
-            Console.Write(who + " ");
+            //Console.Write(who + " ");
             string who = "Mixed";
             Console.Write(who);
         }
