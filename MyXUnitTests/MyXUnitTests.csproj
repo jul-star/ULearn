@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\02_Errors\02_Errors.csproj" />
+    <ProjectReference Include="..\CompoundInterest\CompoundInterest.csproj" />
   </ItemGroup>
 
 </Project>
