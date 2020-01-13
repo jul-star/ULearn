@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 
 namespace MyXUnitTests
 {
-    public class UnitTestMinX
+    public class MinXUnitTest
     {
         [Fact]
         public void Test1()

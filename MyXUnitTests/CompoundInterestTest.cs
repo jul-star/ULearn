@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 
 namespace MyXUnitTests
 {
-    public class UnitTestCompoundInterest
+    public class CompoundInterestUnitTest
     {
         //[Fact]
         //public void TestConvertStringToValues_0()
