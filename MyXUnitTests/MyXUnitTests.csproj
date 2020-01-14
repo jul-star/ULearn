@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -16,6 +16,7 @@
     <ProjectReference Include="..\02_Errors\02_Errors.csproj" />
     <ProjectReference Include="..\Branching\Branching.csproj" />
     <ProjectReference Include="..\CompoundInterest\CompoundInterest.csproj" />
+    <ProjectReference Include="..\Rectangles\Rectangles.csproj" />
   </ItemGroup>
 
 </Project>

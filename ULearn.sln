@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyXUnitTests", "MyXUnitTest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompoundInterest", "CompoundInterest\CompoundInterest.csproj", "{A7B41699-FDAE-4E60-92CD-CBC08187B496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branching", "Branching\Branching.csproj", "{27AFF02A-89E6-4D31-A1F0-86A618B0DDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Branching", "Branching\Branching.csproj", "{27AFF02A-89E6-4D31-A1F0-86A618B0DDD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluralize", "Pluralize\Pluralize.csproj", "{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangles", "Rectangles\Rectangles.csproj", "{E8B0D136-D22F-4550-A136-BB577FCBEC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distance", "Distance\Distance.csproj", "{A7607F62-2517-4779-84D4-3D378809A97E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{105ABC87-92A4-42BA-8B34-5232D8A1FDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B0D136-D22F-4550-A136-BB577FCBEC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7607F62-2517-4779-84D4-3D378809A97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7607F62-2517-4779-84D4-3D378809A97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7607F62-2517-4779-84D4-3D378809A97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7607F62-2517-4779-84D4-3D378809A97E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
