@@ -16,6 +16,7 @@
     <ProjectReference Include="..\02_Errors\02_Errors.csproj" />
     <ProjectReference Include="..\Branching\Branching.csproj" />
     <ProjectReference Include="..\CompoundInterest\CompoundInterest.csproj" />
+    <ProjectReference Include="..\Cycles\Cycles.csproj" />
     <ProjectReference Include="..\Rectangles\Rectangles.csproj" />
   </ItemGroup>
 
