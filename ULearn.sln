@@ -25,7 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazes", "Mazes\Mazes.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonFractal", "DragonFractal\DragonFractal.csproj", "{1BE7005E-6AE9-4587-9FE7-62EE40CE3E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{5B984B06-8CAD-4A07-AAC4-FA72E025C531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{5B984B06-8CAD-4A07-AAC4-FA72E025C531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Names", "Names\Names.csproj", "{616230F0-26C5-4954-8A86-827F1C3E72ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{8F655667-9563-45EE-969A-84ECD4970BF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{5B984B06-8CAD-4A07-AAC4-FA72E025C531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B984B06-8CAD-4A07-AAC4-FA72E025C531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B984B06-8CAD-4A07-AAC4-FA72E025C531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616230F0-26C5-4954-8A86-827F1C3E72ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616230F0-26C5-4954-8A86-827F1C3E72ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616230F0-26C5-4954-8A86-827F1C3E72ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616230F0-26C5-4954-8A86-827F1C3E72ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F655667-9563-45EE-969A-84ECD4970BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F655667-9563-45EE-969A-84ECD4970BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F655667-9563-45EE-969A-84ECD4970BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F655667-9563-45EE-969A-84ECD4970BF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
