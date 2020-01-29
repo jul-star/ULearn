@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Collections
 {
-    public class Class1
+    public static class Decoding
     {
         private static string DecodeMessage(string[] lines)
         {
@@ -40,6 +40,36 @@ namespace Collections
             }
 
             return rev;
+        }
+
+        public static string ApplyCommands(string[] commands)
+        {
+            StringBuilder sb  = new StringBuilder();
+            
+            foreach (var cmd in commands)
+            {
+                if (cmd.Contains("push"))
+                {
+                    string item = cmd.Remove(0, "push ".Length);
+                    sb.Append(item);
+                }
+                else if (cmd.Contains("pop"))
+                {
+                    string item = cmd.Remove(0, "pop ".Length);
+                    try
+                    {
+                        int count = int.Parse(item);
+                        count = (count < sb.Length ? count : sb.Length);
+                        sb.Remove(sb.Length-count, count);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine(e);
+                    }
+                }
+            }
+
+            return sb.ToString();
         }
     }
 }
