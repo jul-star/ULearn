@@ -15,7 +15,7 @@ namespace TextAnalysis
             var testsToRun = new string[]
             {
                 "TextAnalysis.SentencesParser_Tests",
-                //"TextAnalysis.FrequencyAnalysis_Tests",
+                "TextAnalysis.FrequencyAnalysis_Tests",
                 //"TextAnalysis.TextGenerator_Tests",
             };
             new AutoRun().Execute(new[]
@@ -25,19 +25,19 @@ namespace TextAnalysis
                 "--test=" + string.Join(",", testsToRun)
             });
 
-            var text = File.ReadAllText("HarryPotterText.txt");
-            var sentences = SentencesParserTask.ParseSentences(text);
-            int count = 0;
-            foreach (var sentence in sentences)
-            {
-                Console.WriteLine(count.ToString()+'\n');
-                foreach (var word in sentence)
-                {
-                    Console.Write(word+' ');
-                }
+            //var text = File.ReadAllText("HarryPotterText.txt");
+            //var sentences = SentencesParserTask.ParseSentences(text);
+            //int count = 0;
+            //foreach (var sentence in sentences)
+            //{
+            //    Console.WriteLine(count.ToString()+'\n');
+            //    foreach (var word in sentence)
+            //    {
+            //        Console.Write(word+' ');
+            //    }
 
-                ++count;
-            }
+            //    ++count;
+            //}
             //var frequency = FrequencyAnalysisTask.GetMostFrequentNextWords(sentences);
             //Расскомментируйте этот блок, если хотите выполнить последнюю задачу до первых двух.
             /*
