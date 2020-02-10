@@ -12,7 +12,7 @@ namespace TableParser
     {
         [TestCase("''", 0, "", 2)]
         [TestCase("'a'", 0, "a", 3)]
-        public void Test(string line, int startIndex, string expectedValue, int expectedLength)
+        public void TestAuthor(string line, int startIndex, string expectedValue, int expectedLength)
         {
             var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
             Assert.AreEqual(actualToken, new Token(expectedValue, startIndex, expectedLength));
@@ -25,7 +25,20 @@ namespace TableParser
             var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
             Assert.AreEqual(actualToken, new Token(expectedValue, startIndex, expectedLength));
         }
+         // Добавьте свои тесты
+        [TestCase("1 2	3", 0, "", 0)]
+        [TestCase("a \"bcd ef\" 'x y'", 0, "", 0)]
+        [TestCase("\"a 'b' 'c' d\" '\"1\" \"2\" \"3\"'", 0, "", 0)]
+        [TestCase("a\"b c d e\"f", 0, "", 0)]
+        [TestCase("abc \"def g h", 0, "", 0)]
+        [TestCase("\"a \\\"c\\\"\"", 0, "", 0)]
+        [TestCase("\"\\\\\" b", 0, "", 0)]
 
+        public void TestSet01(string line, int startIndex, string expectedValue, int expectedLength)
+        {
+            var actualToken = QuotedFieldTask.ReadQuotedField(line, startIndex);
+            Assert.AreEqual(actualToken, new Token(expectedValue, startIndex, expectedLength));
+        }
     }
 
     class QuotedFieldTask
